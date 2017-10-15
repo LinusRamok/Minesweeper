@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MineSweeper</string>
+
+    <string name="htp1">Welcome to the Instructions menu.\nHere you will learn how to play Minesweeper!</string>
+    <string name="htp2">The classic mode is just a normal minesweeper game where you have to flag all the mines without any time limit. While in survival mode, you have to flag all the mines within a given time frame.\nSince time is fixed for survival mode in each difficulty level, your score in survival mode would not be updated in the High Score menu.\n \nThe difficulty level will automatically select the number of mines to be flagged(and the time limit too if survival mode is chosen) to play with as per your selected level. Easy mode has 10 mines laid over the mine field, medium mode has 16, hard mode has 23, and insane mode has 38 mines.</string>
+    <string name="htp3">-Single click on any closed box to open it.\n\n-Long click on any box to add/remove the flag.\n\n-Click the emoji icon on the top right corner to quick start a new game.\n\n-Click on the pause button on the top right of the screen(or press the back button) to pause the game.</string>
+    <string name="htp4">To win the game, you have to correctly put flags over the boxes where a mine lie. The flag can only be laid over a closed box. The total number of flags you have is equal to total number of mines in the mine field. You will loose if you open a box which has a mine.</string>
+    <string name="htp5">All the boxes on the minefield are either empty, have mines, or have numbers inside. If they are empty, opening them would open all the boxes in the surroundings until the boxes with numbers are opened.\nAny box in general is surrounded by 8 boxes(see figure).The numbers on the opened box indicate that the box is surrounded by that many number of mines. For example, the opened box below is surrounded by 5 mines.</string>
+
+</resources>

@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackcustom"
+    android:id="@+id/relativeLayout"
+    style="@style/AppTheme">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Flags"
+        android:textColor="#FFFFFF"
+        android:textSize="13dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:id="@+id/MineCount"
+        android:textSize="19dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timer"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:id="@+id/Timer"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="23dp"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/custompause"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.5" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton4"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/button2"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+
+        android:background="@drawable/smiley"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/MineField"
+        android:layout_height="490dp"
+        android:gravity="center"
+        android:stretchColumns="*"
+        android:layout_span="3"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Timer"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="0">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i00"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i01"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i02"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i03"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i04"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i05"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i06"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i07"
+                android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="0">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i10"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i11"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i12"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i13"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i14"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i15"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i16"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i17"
+                android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="2">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i20"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i21"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i22"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i23"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i24"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i25"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i26"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i27"
+                android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="3">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i30"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i31"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i32"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i33"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i34"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i35"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i36"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i37"
+                android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="4">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i40"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i41"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i42"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i43"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i44"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i45"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i46"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i47"
+                android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="5">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i50"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i51"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i52"
+                android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i53" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i54" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i55" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i56" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i57" android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="6">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i60" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i61" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i62" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i63" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i64" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i65" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i66" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i67" android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="7">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i70" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i71" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i72" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i73" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i74" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i75" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i76" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i77" android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="8">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i80" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i81" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i82" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i83" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i84" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i85" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i86" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i87" android:background="@drawable/custombackeasy"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="9">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i90" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i91" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i92" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i93" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i94" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i95" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i96" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i97" android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="10">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i100" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i101" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i102" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i103" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i104" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i105" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i106" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i107" android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_column="11">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="0"
+                android:id="@+id/i110" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="1"
+                android:id="@+id/i111" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="2"
+                android:id="@+id/i112" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="3"
+                android:id="@+id/i113" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="4"
+                android:id="@+id/i114" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="5"
+                android:id="@+id/i115" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="6"
+                android:id="@+id/i116" android:background="@drawable/custombackeasy"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:layout_column="7"
+                android:id="@+id/i117" android:background="@drawable/custombackeasy"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/textView7"
+        android:textSize="20dp"
+        android:text="THE GAME WILL START RIGHT AFTER YOUR FIRST CLICK. GOOD LUCK!"
+        android:textAlignment="center"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="RESUME"
+        android:id="@+id/textView37"
+        android:layout_below="@+id/Timer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        android:visibility="gone"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="HIGH SCORES"
+        android:id="@+id/textView38"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_below="@+id/textView37"
+        android:layout_toStartOf="@+id/textView37" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="HOW TO PLAY"
+        android:id="@+id/textView39"
+        android:layout_alignBottom="@+id/textView38"
+        android:layout_toEndOf="@+id/textView37"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:visibility="gone"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:text="EXIT TO MAIN MENU"
+        android:id="@+id/textView40"
+        android:layout_below="@+id/textView38"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:clickable="true"
+        android:visibility="gone"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="EXIT GAME"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/textView40"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:visibility="gone"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to exit to Main Menu? All the unsaved progress will be lost."
+        android:id="@+id/textView42"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="91dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:text="YES"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="41dp"
+        android:gravity="center|right"
+        android:background="@drawable/custombutton"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:padding="5dp"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:text="NO"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/custombutton"
+        android:gravity="center|right"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:visibility="gone"
+        android:textSize="17dp"
+        android:layout_marginBottom="2dp"/>
+
+
+</RelativeLayout>

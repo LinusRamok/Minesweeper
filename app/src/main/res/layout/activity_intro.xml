@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity"
+    style="@style/AppTheme"
+    android:background="#1accc3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/gameicon"
+        android:id="@+id/gameicon"
+        android:adjustViewBounds="true">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by"
+        android:id="@+id/textView44"
+        android:textSize="20dp"
+        android:textIsSelectable="false"
+        android:typeface="monospace"
+        android:gravity="right"
+        android:textColor="#ffffff"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/gameicon"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D. Sunil Kumar"
+        android:id="@+id/textView52"
+        android:layout_below="@+id/textView44"
+        android:layout_alignEnd="@+id/textView44"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gautam Rajeev Singh"
+        android:id="@+id/textView53"
+        android:layout_below="@+id/textView52"
+        android:layout_alignEnd="@+id/textView52"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:typeface="monospace" />
+</RelativeLayout>
+    <!--#11a2fd #003fb7-->

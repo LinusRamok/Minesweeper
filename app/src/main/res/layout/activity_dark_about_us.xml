@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#000000"
+    tools:context="com.bat.iron.demosweeper.DarkAboutUs"
+    >
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="About"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView59"
+        android:padding="10dp"
+        android:id="@+id/relativeLayout8"
+        android:layout_marginBottom="5dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/appicon"
+            android:background="@drawable/appicon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/appicon"
+            android:text="Minesweeper"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/textView"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:text="With materialistic design and multiple modes"
+            android:layout_toRightOf="@+id/appicon"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#e9e9e9"
+            android:textSize="13dp"
+            android:id="@+id/textView2"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/appicon"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/rate"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/imageView"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/share"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/imageView2"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imageView3"
+            android:background="@drawable/mail"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/relativeLayout9"
+        android:background="@drawable/gradientcolorgrs"
+        android:padding="10dp"
+        android:layout_below="@+id/relativeLayout8"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/grs"
+            android:background="@drawable/grs"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/grs"
+            android:text="Gautam Rajeev Singh"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/textView3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:text="Developer from Raipur(C.G.), India"
+            android:layout_toRightOf="@+id/grs"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#e0e0e0"
+            android:textSize="13dp"
+            android:id="@+id/textView4"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/grs"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imageView4"
+            android:background="@drawable/insta"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/imageView4"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/googleplus"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout9"
+        android:background="@drawable/gradientcolordsk"
+        android:padding="10dp"
+        android:id="@+id/relativeLayout10">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/dsk"
+            android:background="@drawable/dsk"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dsk"
+            android:text="D. Sunil Kumar"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/textView5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:text="Developer from Raipur(C.G.), India"
+            android:layout_toRightOf="@+id/dsk"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#e0e0e0"
+            android:textSize="13dp"
+            android:id="@+id/textView6"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/dsk"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imageView6"
+            android:background="@drawable/insta"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/imageView6"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imageView7"
+            android:background="@drawable/googleplus"/>
+
+    </RelativeLayout>
+
+    <TextView
+    android:id="@+id/textView45"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Testers:"
+    android:textSize="17dp"
+    android:textStyle="bold"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="90dp"
+    android:layout_below="@+id/relativeLayout10"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Kunal Verma"
+        android:layout_alignStart="@+id/textView45"
+        android:layout_below="@id/textView45"
+        android:textSize="16dp"
+        android:textColor="#e9e9e9"/>
+
+    <ImageView
+        android:id="@+id/imageButton5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/textView46"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/insta"
+        android:layout_marginRight="90dp"/>
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView46"
+        android:layout_below="@+id/textView46"
+        android:text="Arman Siddique"
+        android:textColor="#e9e9e9"
+        android:textSize="16dp"
+        android:layout_marginTop="7dp"/>
+
+    <ImageView
+        android:id="@+id/imageButton6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/textView48"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/insta"
+        android:layout_marginRight="90dp"/>
+
+</RelativeLayout>
+
+
+
+

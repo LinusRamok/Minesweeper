@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme"
+    android:background="#7c4dff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="SELECT ATTRIBUTES"
+        android:id="@+id/textView47"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:textSize="27dp"
+        android:typeface="monospace"
+        android:gravity="center|left"
+        android:padding="5dp"
+        android:textColor="#000000"/>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker"
+        android:layout_marginLeft="15dp"
+        android:solidColor="#7c4dff"
+        android:layout_alignTop="@+id/numberPicker2"
+        android:layout_alignStart="@+id/button9" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker2"
+        android:solidColor="#7c4dff"
+        android:layout_below="@+id/textView47"
+        android:layout_alignStart="@+id/textView50"
+        android:layout_marginTop="54dp" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker3"
+        android:layout_marginRight="15dp"
+        android:solidColor="#7c4dff"
+        android:layout_below="@+id/textView51"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="PLAY"
+        android:id="@+id/button8"
+        android:background="@drawable/custombuttonbackground"
+        android:textSize="27dp"
+        android:typeface="monospace"
+        android:layout_above="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROWS"
+        android:id="@+id/textView49"
+        android:layout_above="@+id/numberPicker"
+        android:layout_alignStart="@+id/numberPicker"
+        android:layout_alignEnd="@+id/numberPicker"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:alpha="0.6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLUMNS"
+        android:id="@+id/textView50"
+        android:layout_alignTop="@+id/textView49"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:alpha="0.6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MINES"
+        android:id="@+id/textView51"
+        android:layout_alignTop="@+id/textView50"
+        android:layout_alignStart="@+id/numberPicker3"
+        android:layout_alignEnd="@+id/numberPicker3"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:alpha="0.6" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/triangleleft"/>
+</RelativeLayout>
