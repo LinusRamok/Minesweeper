@@ -1364,7 +1364,7 @@ public class DarkSurvival extends AppCompatActivity {
         tv38.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DarkSurvival.this, InGameHighScore.class);
+                Intent i = new Intent(DarkSurvival.this, InGameDarkHighScore.class);
                 startActivity(i);
             }
         });
@@ -1372,7 +1372,7 @@ public class DarkSurvival extends AppCompatActivity {
         tv39.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DarkSurvival.this, InGameHowToPlay.class);
+                Intent i = new Intent(DarkSurvival.this, InGameDarkHowToPlay.class);
                 startActivity(i);
             }
         });

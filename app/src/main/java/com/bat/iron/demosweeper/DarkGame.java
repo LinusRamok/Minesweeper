@@ -1337,7 +1337,7 @@ public class DarkGame extends AppCompatActivity {
         tv38.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DarkGame.this, InGameHighScore.class);
+                Intent i = new Intent(DarkGame.this, InGameDarkHighScore.class);
                 startActivity(i);
             }
         });
@@ -1345,7 +1345,7 @@ public class DarkGame extends AppCompatActivity {
         tv39.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DarkGame.this, InGameHowToPlay.class);
+                Intent i = new Intent(DarkGame.this, InGameDarkHowToPlay.class);
                 startActivity(i);
             }
         });

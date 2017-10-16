@@ -1348,7 +1348,7 @@ public class DarkCustomMode extends AppCompatActivity {
         tv38.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DarkCustomMode.this, InGameHighScore.class);
+                Intent i = new Intent(DarkCustomMode.this, InGameDarkHighScore.class);
                 startActivity(i);
             }
         });
@@ -1356,7 +1356,7 @@ public class DarkCustomMode extends AppCompatActivity {
         tv39.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DarkCustomMode.this, InGameHowToPlay.class);
+                Intent i = new Intent(DarkCustomMode.this, InGameDarkHowToPlay.class);
                 startActivity(i);
             }
         });
