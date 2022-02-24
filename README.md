@@ -1,4 +1,4 @@
-This is a modern minesweeper game.
+This is a modern minesweeper game developed by Gautam Rajeev Singh (https://github.com/Gauti4417) and D. Sunil Kumar (https://github.com/LinusRamok).
 
 It uses the logic of 'mirror matrix' (contact any one of us if you want to understand the code, by downloading the app and mailing us from the 'about' section of the app).
 
